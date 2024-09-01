@@ -1,0 +1,1293 @@
+fileFormatVersion: 2
+guid: 8326c611bb45eb24ab1b70350cf9f5f2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clovers_10_black
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30a00585e2b8784d90039f5e1415163
+      internalID: 323145644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_2_black
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d13e49b7015c7499b40c7db4dc92c6
+      internalID: 1119536646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_3_black
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14c60d07c5dd554f98ba8b583046757
+      internalID: 1734340622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_4_black
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf499470d4a91b45b19a0545c3e363f
+      internalID: -1172577185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_5_black
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350291efbe19b034db0b1c031c2f3cfd
+      internalID: -26481764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_6_black
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f5e410705118941ae4f286de844c1b
+      internalID: 285638337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_7_black
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8f5bcd063b39243b64d8a8a3f46b6d
+      internalID: -1560468956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_8_black
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82f9860aef2b324f967505e9dd026fa
+      internalID: 26687999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_9_black
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1726
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a5b52455127934f8e1d96ea7a690c1
+      internalID: 2132232235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_A_black
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f630830ed81d91c4689f2e4d3bdbb633
+      internalID: 2119565219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_Jack_black
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de40411522af514db6d264b6557902e
+      internalID: 124765538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_King_black
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b12ae2feaf7d7a44b2c9a83d9f011d8
+      internalID: 66409600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clovers_Queen_black
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84426f93da1b24468e3ba47d7865e4d
+      internalID: 978231897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: g3771
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8497d5b0cafd904aa9321bec07d8f4b
+      internalID: 2086277785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_10_black
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89255e6edde0a994fbb2044f4cb533d5
+      internalID: -1176345278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_2_black
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ed808677623194b91fca19adaed6e6
+      internalID: 1842414986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_3_black
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3830babac95f6874b8bb11b9b7b975c9
+      internalID: -1219897953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_4_black
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b80bb029c320442ba9afc7646011d3
+      internalID: 1775914847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_5_black
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1404
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2460036e4fc2a3c4294d20b9fceb4402
+      internalID: -814516037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_6_black
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd922229e762d643958cbdd87cd9e9d
+      internalID: 187953006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_7_black
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16922fa96711604aa45d29c47d37b03
+      internalID: -880549178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_8_black
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed166f30201297045be382f15a2967ce
+      internalID: 928383208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_9_black
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3416fd37c50274088fd92cbeceb59b
+      internalID: -218236867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_A_black
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc57d72579194f47960e33b4e0a2606
+      internalID: -890989811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_Jack_black
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733780be7d2aee4468148e83bd0f71ba
+      internalID: -287792455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_King_black
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3c6e85d69733644bf9227f8d62ddf8
+      internalID: 1027672300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearts_Queen_black
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1082
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ef90cdecb901d499ccb7bf34f08652
+      internalID: -423956042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_10_black
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab649dbbd4d9fa42bfdef7455ca9ad9
+      internalID: -1845221185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_2_black
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e733167ab5d02c418fbb4d5d22337e7
+      internalID: 703380885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_3_black
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb46fca15361a8a44b442867a8849c77
+      internalID: -998969800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_4_black
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9b57e493bcdfe4ca8d8b86d99a1cb7
+      internalID: 1317848508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_5_black
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6306d6f10931714f9c7d470d807bd96
+      internalID: -1466139223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_6_black
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f7b891f10a34448b8e6edca525e002
+      internalID: 197864009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_7_black
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2df31387ddd764a8ae665fe6b6be23
+      internalID: 1916898191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_8_black
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd560016bb96cba40852ef8a56194f69
+      internalID: -1501185097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_9_black
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 760
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0d06116c3123f448930f87bf1c6ce1
+      internalID: -1326377321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_A_black
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fe8c0528883994ba9e51ab8a8c34e1
+      internalID: 1357891573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_Jack_black
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ede52cec07dc9f4c8989c7f8775aa83
+      internalID: 757963021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_King_black
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c1b84a71aa0de4f8736e774ff6bb26
+      internalID: 453236406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pikes_Queen_black
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7d62f6d5efb924c8683d55fcb3856e
+      internalID: -1922365033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_10_black
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 116
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a16f8c417bd7c48abf31ff9582d900
+      internalID: 1320588111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_2_black
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16eb347d0d1d8e4bbd38d067b90490b
+      internalID: 204939113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_3_black
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68edae4e9f3bf334386e4afa2f7112f7
+      internalID: -784957222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_4_black
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6fa2b63d70486419b7070c365172ca
+      internalID: 1941443650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_5_black
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9502afd46c71d46448c01b4735030ae6
+      internalID: 807214932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_6_black
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 438
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d506f48c21c884fb5f3ac75860c5c4
+      internalID: -2014343685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_7_black
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb311026f9318764bad8f759d35cf9f5
+      internalID: 1342216086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_8_black
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 116
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177f0e78e6a9e154487376256e6ff12b
+      internalID: 306449649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_9_black
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 116
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdcd8750a51608478d75aa32bdf4be4
+      internalID: 1758134830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_A_black
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 116
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c636f4e976eda004da2e91f773a986b4
+      internalID: 2014852605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Jack_black
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 116
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5d6d4cfdea09d40ac37e725cd685c3
+      internalID: 735345898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_King_black
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 116
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb46ce1f86f2d2478d614d961a414df
+      internalID: -772769636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles_Queen_black
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 116
+        width: 227
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e870578ccb8dfe45b77b1a617dab1a8
+      internalID: 510394689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9a58c6a7b12948d43b0599d3cce54f03
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Clovers_10_black: 323145644
+      Clovers_2_black: 1119536646
+      Clovers_3_black: 1734340622
+      Clovers_4_black: -1172577185
+      Clovers_5_black: -26481764
+      Clovers_6_black: 285638337
+      Clovers_7_black: -1560468956
+      Clovers_8_black: 26687999
+      Clovers_9_black: 2132232235
+      Clovers_A_black: 2119565219
+      Clovers_Jack_black: 124765538
+      Clovers_King_black: 66409600
+      Clovers_Queen_black: 978231897
+      Hearts_10_black: -1176345278
+      Hearts_2_black: 1842414986
+      Hearts_3_black: -1219897953
+      Hearts_4_black: 1775914847
+      Hearts_5_black: -814516037
+      Hearts_6_black: 187953006
+      Hearts_7_black: -880549178
+      Hearts_8_black: 928383208
+      Hearts_9_black: -218236867
+      Hearts_A_black: -890989811
+      Hearts_Jack_black: -287792455
+      Hearts_King_black: 1027672300
+      Hearts_Queen_black: -423956042
+      Pikes_10_black: -1845221185
+      Pikes_2_black: 703380885
+      Pikes_3_black: -998969800
+      Pikes_4_black: 1317848508
+      Pikes_5_black: -1466139223
+      Pikes_6_black: 197864009
+      Pikes_7_black: 1916898191
+      Pikes_8_black: -1501185097
+      Pikes_9_black: -1326377321
+      Pikes_A_black: 1357891573
+      Pikes_Jack_black: 757963021
+      Pikes_King_black: 453236406
+      Pikes_Queen_black: -1922365033
+      Tiles_10_black: 1320588111
+      Tiles_2_black: 204939113
+      Tiles_3_black: -784957222
+      Tiles_4_black: 1941443650
+      Tiles_5_black: 807214932
+      Tiles_6_black: -2014343685
+      Tiles_7_black: 1342216086
+      Tiles_8_black: 306449649
+      Tiles_9_black: 1758134830
+      Tiles_A_black: 2014852605
+      Tiles_Jack_black: 735345898
+      Tiles_King_black: -772769636
+      Tiles_Queen_black: 510394689
+      g3771: 2086277785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

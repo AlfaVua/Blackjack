@@ -1,0 +1,67 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:1f040209e5dcdffcc332b88f32e12364:779d97dfa70cc37729e29ce237183105:21ffa4718a8f42af05fbfdb0c73133f2$
+#
+:format=40300
+:texture=whites.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Clovers_2_white;0;1726;227;322; 0;1; 0;0;0;0
+Clovers_3_white;227;1726;227;322; 0;1; 0;0;0;0
+Clovers_4_white;454;1726;227;322; 0;1; 0;0;0;0
+Clovers_5_white;681;1726;227;322; 0;1; 0;0;0;0
+Clovers_6_white;908;1726;227;322; 0;1; 0;0;0;0
+Clovers_7_white;1135;1726;227;322; 0;1; 0;0;0;0
+Clovers_8_white;1362;1726;227;322; 0;1; 0;0;0;0
+Clovers_9_white;1589;1726;227;322; 0;1; 0;0;0;0
+Clovers_10_white;1816;1726;227;322; 0;1; 0;0;0;0
+Clovers_A_white;0;1404;227;322; 0;1; 0;0;0;0
+Clovers_Jack_white;227;1404;227;322; 0;1; 0;0;0;0
+Clovers_King_white;454;1404;227;322; 0;1; 0;0;0;0
+Clovers_Queen_white;681;1404;227;322; 0;1; 0;0;0;0
+Hearts_2_white;908;1404;227;322; 0;1; 0;0;0;0
+Hearts_3_white;1135;1404;227;322; 0;1; 0;0;0;0
+Hearts_4_white;1362;1404;227;322; 0;1; 0;0;0;0
+Hearts_5_white;1589;1404;227;322; 0;1; 0;0;0;0
+Hearts_7_white;1816;1404;227;322; 0;1; 0;0;0;0
+Hearts_8_white;0;1082;227;322; 0;1; 0;0;0;0
+Hearts_9_white;227;1082;227;322; 0;1; 0;0;0;0
+Hearts_10_white;454;1082;227;322; 0;1; 0;0;0;0
+Hearts_A_white;681;1082;227;322; 0;1; 0;0;0;0
+Hearts_Jack_white;908;1082;227;322; 0;1; 0;0;0;0
+Hearts_King_white;1135;1082;227;322; 0;1; 0;0;0;0
+Hearts_Queen_white;1362;1082;227;322; 0;1; 0;0;0;0
+Heats_6_white;1589;1082;227;322; 0;1; 0;0;0;0
+Pikes_2_white;1816;1082;227;322; 0;1; 0;0;0;0
+Pikes_3_white;0;760;227;322; 0;1; 0;0;0;0
+Pikes_4_white;227;760;227;322; 0;1; 0;0;0;0
+Pikes_5_white;454;760;227;322; 0;1; 0;0;0;0
+Pikes_6_white;681;760;227;322; 0;1; 0;0;0;0
+Pikes_7_white;908;760;227;322; 0;1; 0;0;0;0
+Pikes_8_white;1135;760;227;322; 0;1; 0;0;0;0
+Pikes_9_white;1362;760;227;322; 0;1; 0;0;0;0
+Pikes_10_white;1589;760;227;322; 0;1; 0;0;0;0
+Pikes_A_white;1816;760;227;322; 0;1; 0;0;0;0
+Pikes_Jack_white;0;438;227;322; 0;1; 0;0;0;0
+Pikes_King_white;227;438;227;322; 0;1; 0;0;0;0
+Pikes_Queen_white;454;438;227;322; 0;1; 0;0;0;0
+Tiles_2_white;681;438;227;322; 0;1; 0;0;0;0
+Tiles_3_white;908;438;227;322; 0;1; 0;0;0;0
+Tiles_4_white;1135;438;227;322; 0;1; 0;0;0;0
+Tiles_5_white;1362;438;227;322; 0;1; 0;0;0;0
+Tiles_6_white;1589;438;227;322; 0;1; 0;0;0;0
+Tiles_7_white;1816;438;227;322; 0;1; 0;0;0;0
+Tiles_8_white;0;116;227;322; 0;1; 0;0;0;0
+Tiles_9_white;227;116;227;322; 0;1; 0;0;0;0
+Tiles_10_white;454;116;227;322; 0;1; 0;0;0;0
+Tiles_A_white;681;116;227;322; 0;1; 0;0;0;0
+Tiles_Jack_white;908;116;227;322; 0;1; 0;0;0;0
+Tiles_King_white;1135;116;227;322; 0;1; 0;0;0;0
+Tiles_Queen_white;1362;116;227;322; 0;1; 0;0;0;0

@@ -1,0 +1,68 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:53902253a6ad89050a79569313f402c1:c91dda3743ed8b7489ded39fd9be2333:af75f8fe1aab2d34507e8eb4966ea2fa$
+#
+:format=40300
+:texture=blacks.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+Clovers_2_black;0;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_3_black;227;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_4_black;454;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_5_black;681;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_6_black;908;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_7_black;1135;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_8_black;1362;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_9_black;1589;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_10_black;1816;1726;227;322; 0.5;0.5; 0;0;0;0
+Clovers_A_black;0;1404;227;322; 0.5;0.5; 0;0;0;0
+Clovers_Jack_black;227;1404;227;322; 0.5;0.5; 0;0;0;0
+Clovers_King_black;454;1404;227;322; 0.5;0.5; 0;0;0;0
+Clovers_Queen_black;681;1404;227;322; 0.5;0.5; 0;0;0;0
+g3771;908;1404;227;322; 0.5;0.5; 0;0;0;0
+Hearts_2_black;1135;1404;227;322; 0.5;0.5; 0;0;0;0
+Hearts_3_black;1362;1404;227;322; 0.5;0.5; 0;0;0;0
+Hearts_4_black;1589;1404;227;322; 0.5;0.5; 0;0;0;0
+Hearts_5_black;1816;1404;227;322; 0.5;0.5; 0;0;0;0
+Hearts_6_black;0;1082;227;322; 0.5;0.5; 0;0;0;0
+Hearts_7_black;227;1082;227;322; 0.5;0.5; 0;0;0;0
+Hearts_8_black;454;1082;227;322; 0.5;0.5; 0;0;0;0
+Hearts_9_black;681;1082;227;322; 0.5;0.5; 0;0;0;0
+Hearts_10_black;908;1082;227;322; 0.5;0.5; 0;0;0;0
+Hearts_A_black;1135;1082;227;322; 0.5;0.5; 0;0;0;0
+Hearts_Jack_black;1362;1082;227;322; 0.5;0.5; 0;0;0;0
+Hearts_King_black;1589;1082;227;322; 0.5;0.5; 0;0;0;0
+Hearts_Queen_black;1816;1082;227;322; 0.5;0.5; 0;0;0;0
+Pikes_2_black;0;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_3_black;227;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_4_black;454;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_5_black;681;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_6_black;908;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_7_black;1135;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_8_black;1362;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_9_black;1589;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_10_black;1816;760;227;322; 0.5;0.5; 0;0;0;0
+Pikes_A_black;0;438;227;322; 0.5;0.5; 0;0;0;0
+Pikes_Jack_black;227;438;227;322; 0.5;0.5; 0;0;0;0
+Pikes_King_black;454;438;227;322; 0.5;0.5; 0;0;0;0
+Pikes_Queen_black;681;438;227;322; 0.5;0.5; 0;0;0;0
+Tiles_2_black;908;438;227;322; 0.5;0.5; 0;0;0;0
+Tiles_3_black;1135;438;227;322; 0.5;0.5; 0;0;0;0
+Tiles_4_black;1362;438;227;322; 0.5;0.5; 0;0;0;0
+Tiles_5_black;1589;438;227;322; 0.5;0.5; 0;0;0;0
+Tiles_6_black;1816;438;227;322; 0.5;0.5; 0;0;0;0
+Tiles_7_black;0;116;227;322; 0.5;0.5; 0;0;0;0
+Tiles_8_black;227;116;227;322; 0.5;0.5; 0;0;0;0
+Tiles_9_black;454;116;227;322; 0.5;0.5; 0;0;0;0
+Tiles_10_black;681;116;227;322; 0.5;0.5; 0;0;0;0
+Tiles_A_black;908;116;227;322; 0.5;0.5; 0;0;0;0
+Tiles_Jack_black;1135;116;227;322; 0.5;0.5; 0;0;0;0
+Tiles_King_black;1362;116;227;322; 0.5;0.5; 0;0;0;0
+Tiles_Queen_black;1589;116;227;322; 0.5;0.5; 0;0;0;0
