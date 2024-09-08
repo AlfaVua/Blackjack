@@ -1,60 +1,59 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Components;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Cards
 {
     [Serializable]
-    public class CardData
+    public class RawCardData
     {
         public int value;
         public string name;
     }
-
     public class CardGenerator : MonoBehaviour
     {
         [SerializeField] private CardsGeneratorPreset preset;
-        [SerializeField] private ProgressBar loadProgress;
 
         private int totalCards;
+        private List<CardData> cards;
 
-        private List<CardObject> cards;
+        public List<CardData> CardList => cards;
 
         private void Start()
         {
-            cards = new List<CardObject>();
-            Generate();
+            cards = new List<CardData>();
         }
 
+        public void InitCardData()
+        {
+            cards.Clear();
+            Generate();
+        }
+        
         private void Generate()
         {
             cards.Clear();;
-            totalCards = preset.cardTypes.Count * preset.cards.Count * 2;
-            loadProgress.SetValue(0);
-            StartCoroutine(nameof(GenerateCards));
+            totalCards = preset.TotalCards;
+            GenerateCards();
         }
 
-        private IEnumerator GenerateCards()
+        private void GenerateCards()
         {
-            for (int t = 0; t < preset.cardTypes.Count; t++)
+            foreach (var type in preset.cardTypes)
             {
-                for (int i = 0; i < preset.cards.Count; i++)
+                foreach (var card in preset.cards)
                 {
-                    GenerateCard(preset.cards[i], preset.cardTypes[t], false);
-                    GenerateCard(preset.cards[i], preset.cardTypes[t], true);
-                    yield return new WaitForNextFrameUnit();
+                    if (preset.whitesEnabled) GenerateCard(card, type, true);
+                    if (preset.blacksEnabled) GenerateCard(card, type, false);
                 }
             }
         }
         
-        private void GenerateCard(CardData data, string type, bool isWhite)
+        private void GenerateCard(RawCardData data, string type, bool isWhite)
         {
             var cardName = type + "_" + data.name + (isWhite ? "_white" : "_black");
-            cards.Add(new CardObject(data.value, GetCardSprite(cardName, isWhite ? preset.whites : preset.blacks)));
+            cards.Add(new CardData(data.value, GetCardSprite(cardName, isWhite ? preset.whites : preset.blacks), isWhite));
             OnCardGenerated();
         }
 
@@ -65,12 +64,12 @@ namespace Cards
 
         private void OnCardGenerated()
         {
-            loadProgress.SetValue((float)cards.Count / totalCards);
             if (cards.Count == totalCards) OnComplete();
         }
 
         private void OnComplete()
         {
+            GameController.Instance.OnLoadComplete();
         }
     }
 }
