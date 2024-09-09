@@ -58,9 +58,9 @@ namespace Components
             items.ForEach(UpdateItemPosition);
         }
 
-        public Vector3 GetNextItemTargetPosition()
+        public Vector3 GetNextItemTargetPosition(bool global = false)
         {
-            return Vector3.right * nextItemPositionX;
+            return (global ? transform.position : Vector3.zero) + Vector3.right * nextItemPositionX;
         }
     }
 }

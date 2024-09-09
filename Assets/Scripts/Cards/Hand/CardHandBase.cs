@@ -3,26 +3,29 @@ using Components;
 using TMPro;
 using UnityEngine;
 
-namespace Cards
+namespace Cards.Hand
 {
-    public class CardGroupBase : MonoBehaviour
+    public class CardHandBase : MonoBehaviour
     {
         [SerializeField] private CardHorizontalGroup container;
-        [SerializeField] private TextMeshProUGUI valueText;
+        [SerializeField] protected TextMeshProUGUI valueText;
         [SerializeField] private string valueInfo;
 
-        private List<CardInstance> _cards;
+        protected List<CardInstance> _cards;
 
         public int CurrentValue { get; private set; }
+        public Vector3 NextCardPosition => container.GetNextItemTargetPosition(true);
 
         private void Awake()
         {
             _cards = new List<CardInstance>();
         }
 
-        public void Init()
+        public virtual void Init()
         {
             CurrentValue = 0;
+            container.Reset();
+            _cards.Clear();
         }
 
         public void AddCard(CardInstance card)
@@ -31,6 +34,11 @@ namespace Cards
             container.AddToGroup(card);
             CurrentValue += card.GetValue(CurrentValue);
             valueText.text = valueInfo + CurrentValue;
+            OnCardAdded(card);
+        }
+
+        protected virtual void OnCardAdded(CardInstance card)
+        {
         }
     }
 }
