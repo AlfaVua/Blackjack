@@ -24,7 +24,7 @@ namespace Dealer
 
         private void TryTakeNextCard(CardDeck deck, DealerHand hand)
         {
-            if (hand.CurrentValue > 20 || !ShouldGetNext(hand))
+            if (!ShouldGetNext(hand))
             {
                 _onComplete();
                 return;
@@ -34,7 +34,7 @@ namespace Dealer
 
         private bool ShouldGetNext(DealerHand hand)
         {
-            return hand.CurrentValue < 11 || Random.value < 1 - Mathf.Pow((hand.CurrentValue - 10) / 11f, 1.5f);
+            return hand.CurrentValue < 11 || hand.CurrentValue > 20 || Random.value < 1 - Mathf.Pow((hand.CurrentValue - 10) / 11f, 1.5f);
         }
     }
 }
