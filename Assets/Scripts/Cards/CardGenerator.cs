@@ -20,7 +20,7 @@ namespace Cards
 
         public List<CardData> CardList => cards;
 
-        private void Start()
+        private void Awake()
         {
             cards = new List<CardData>();
         }
@@ -69,7 +69,7 @@ namespace Cards
 
         private void OnComplete()
         {
-            GameController.Instance.OnLoadComplete();
+            GameController.Instance.StartNewGame();
         }
     }
 }

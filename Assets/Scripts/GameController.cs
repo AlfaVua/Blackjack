@@ -1,9 +1,8 @@
-using System.Collections;
 using Cards;
+using Cards.Hand;
 using Dealer;
 using DG.Tweening;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
@@ -15,18 +14,28 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private Button hitButton;
     [SerializeField] private Button standButton;
+
+    [SerializeField] private PlayerHand playerHand;
+    [SerializeField] private DealerHand dealerHand;
+
+    [SerializeField] private EndWindowUI endWindow;
     public static GameController Instance { get; private set; }
     
-    private void Start()
+    private void Awake()
     {
         DOTween.Init();
         Instance = this;
+    }
+
+    private void Start()
+    {
         generator.InitCardData();
     }
 
-    public void OnLoadComplete()
+    public void StartNewGame()
     {
-        dealer.Init(generator.CardList);
+        dealer.Init(generator.CardList, playerHand, dealerHand);
+        endWindow.gameObject.SetActive(false);
     }
 
     public void PlayerValueChanged(int newValue)
@@ -47,35 +56,28 @@ public class GameController : MonoBehaviour
     {
         hitButton.onClick.AddListener(dealer.AddPlayerCard);
         standButton.onClick.AddListener(dealer.OnPlayerStand);
+        endWindow.StartNewGameClicked.AddListener(StartNewGame);
     }
 
     private void OnDisable()
     {
         hitButton.onClick.RemoveListener(dealer.AddPlayerCard);
         standButton.onClick.RemoveListener(dealer.OnPlayerStand);
+        endWindow.StartNewGameClicked.RemoveListener(StartNewGame);
     }
 
     public void PlayerLost()
     {
-        Debug.Log("Player Lost");
-        StartCoroutine(nameof(DelayedInit));
+        endWindow.Draw(EndWindowType.PLAYER_LOST, playerHand.CurrentValue, dealerHand.CurrentValue);
     }
 
     public void PlayerWon()
     {
-        Debug.Log("Player Won");
-        StartCoroutine(nameof(DelayedInit));
+        endWindow.Draw(EndWindowType.PLAYER_WON, playerHand.CurrentValue, dealerHand.CurrentValue);
     }
 
     public void GameTie()
     {
-        Debug.Log("Tie");
-        StartCoroutine(nameof(DelayedInit));
-    }
-
-    private IEnumerator DelayedInit() // Заглушка
-    {
-        yield return new WaitForSeconds(1.5f);
-        dealer.Init(generator.CardList);
+        endWindow.Draw(EndWindowType.TIE, playerHand.CurrentValue, dealerHand.CurrentValue);
     }
 }

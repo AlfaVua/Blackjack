@@ -10,17 +10,24 @@ namespace Dealer
     {
         [SerializeField] private CardDeck deck;
 
-        [SerializeField] private PlayerHand playerCards;
-        [SerializeField] private DealerHand dealerCards;
-
         private System.Random _random;
+        private PlayerHand _playerCards;
+        private DealerHand _dealerCards;
 
-        public void Init(List<CardData> cards)
+        public void Init(List<CardData> cards, PlayerHand playerHand, DealerHand dealerHand)
         {
             Shuffle(cards);
             deck.Init(cards);
-            playerCards.Init();
-            dealerCards.Init();
+
+            _playerCards = playerHand;
+            _playerCards.Init();
+            _dealerCards = dealerHand;
+            _dealerCards.Init();
+            InitStartingCards();
+        }
+
+        private void InitStartingCards()
+        {
             AddPlayerCard(false);
             AddPlayerCard(false);
             AddDealerCard(false);
@@ -41,7 +48,7 @@ namespace Dealer
 
         public void ShowCards()
         {
-            dealerCards.OpenHiddenCard();
+            _dealerCards.OpenHiddenCard();
         }
 
         public void OnPlayerStand()
@@ -54,18 +61,18 @@ namespace Dealer
                 return;
             }
             var dealerBehavior = new DealerBehavior(this, OnDealerDone);
-            dealerBehavior.TakeCards(deck, dealerCards);
+            dealerBehavior.TakeCards(deck, _dealerCards);
         }
 
         private int CompareHands()
         {
-            return playerCards.CurrentValue - dealerCards.CurrentValue;
+            return _playerCards.CurrentValue - _dealerCards.CurrentValue;
         }
 
         private void OnDealerDone()
         {
             var difference = CompareHands();
-            if (dealerCards.CurrentValue > 21 || difference > 0 ) GameController.Instance.PlayerWon();
+            if (_dealerCards.CurrentValue > 21 || difference > 0 ) GameController.Instance.PlayerWon();
             else if (difference == 0) GameController.Instance.GameTie();
             else GameController.Instance.PlayerLost();
         }
@@ -77,17 +84,17 @@ namespace Dealer
 
         private void AddPlayerCard(bool animate)
         {
-            GiveNextCard(playerCards, animate);
+            GiveNextCard(_playerCards, animate);
         }
 
         private void AddDealerCard(bool animate)
         {
-            GiveNextCard(dealerCards, animate);
+            GiveNextCard(_dealerCards, animate);
         }
 
         private void GiveNextCard(CardHandBase hand, bool animate)
         {
-            if (animate) AnimateNextCard(playerCards);
+            if (animate) AnimateNextCard(_playerCards);
             else hand.AddCard(deck.GetNext());
         }
 
