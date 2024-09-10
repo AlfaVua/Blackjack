@@ -17,6 +17,7 @@ namespace Cards
         public void Init(List<CardData> cards)
         {
             _cards = cards;
+            _currentCardIndex = 0;
             deckSize.text = _cards.Count.ToString();
         }
 
