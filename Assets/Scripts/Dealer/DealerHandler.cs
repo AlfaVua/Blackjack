@@ -60,7 +60,7 @@ namespace Dealer
                 GameController.Instance.PlayerLost();
                 return;
             }
-            var dealerBehavior = new DealerBehavior(this, OnDealerDone);
+            var dealerBehavior = new DealerBehavior(this, OnDealerDone, _playerCards.CurrentValue);
             dealerBehavior.TakeCards(deck, _dealerCards);
         }
 

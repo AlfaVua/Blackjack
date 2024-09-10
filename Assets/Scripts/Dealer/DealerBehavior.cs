@@ -10,11 +10,13 @@ namespace Dealer
     {
         private DealerHandler _handler;
         private Action _onComplete;
+        private int _playerValue;
         
-        public DealerBehavior(DealerHandler handler, Action onComplete)
+        public DealerBehavior(DealerHandler handler, Action onComplete, int playerHandValue)
         {
             _handler = handler;
             _onComplete = onComplete;
+            _playerValue = playerHandValue;
         }
 
         public void TakeCards(CardDeck deck, DealerHand hand)
@@ -24,7 +26,7 @@ namespace Dealer
 
         private void TryTakeNextCard(CardDeck deck, DealerHand hand)
         {
-            if (hand.CurrentValue > 20 || !ShouldGetNext(hand))
+            if (hand.CurrentValue > 20 || hand.CurrentValue > _playerValue || !ShouldGetNext(hand))
             {
                 _onComplete();
                 return;
