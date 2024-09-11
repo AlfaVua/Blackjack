@@ -12,6 +12,7 @@ namespace Cards
     {
         [SerializeField] private CardInstance prefab;
         [SerializeField] private TextMeshProUGUI deckSize;
+        [SerializeField] private AudioSource pickupCardSound;
         private List<CardData> _cards;
         public void Init(List<CardData> cards)
         {
@@ -47,6 +48,7 @@ namespace Cards
             card.RenderingOrder = 999;
             var targetPosition = hand.NextCardPosition;
             card.transform.position = transform.position;
+            pickupCardSound.Play();
             Vector3 midPoint = new Vector3(
                 Mathf.Lerp(transform.position.x, targetPosition.x, .8f),
                 Mathf.Lerp(transform.position.y, targetPosition.y, .3f),
