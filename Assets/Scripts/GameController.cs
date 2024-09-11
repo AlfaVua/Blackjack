@@ -34,8 +34,8 @@ public class GameController : MonoBehaviour
 
     public void StartNewGame()
     {
+        endWindow.Hide();
         dealer.Init(generator.CardList, playerHand, dealerHand);
-        endWindow.gameObject.SetActive(false);
     }
 
     public void PlayerValueChanged(int newValue)

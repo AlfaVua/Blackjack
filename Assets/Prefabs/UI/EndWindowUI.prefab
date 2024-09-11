@@ -269,6 +269,7 @@ MonoBehaviour:
   playerCountTM: {fileID: 1624361917092218541}
   resultInfoTM: {fileID: 9002837574933422397}
   startNextButton: {fileID: 4828901660103655836}
+  mainContainer: {fileID: 6653528767952510262}
 --- !u!1 &2770745257318843271
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,7 +845,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 7d3c5acdacf089440aa71c1b99ee6c7b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 

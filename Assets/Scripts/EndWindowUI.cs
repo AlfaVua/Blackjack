@@ -1,3 +1,5 @@
+using System;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,15 +16,31 @@ public class EndWindowUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI playerCountTM;
     [SerializeField] private TextMeshProUGUI resultInfoTM;
     [SerializeField] private Button startNextButton;
+    [SerializeField] private Transform mainContainer;
 
     public Button.ButtonClickedEvent StartNewGameClicked => startNextButton.onClick;
-    
+
+    private void Awake()
+    {
+        startNextButton.animator.keepAnimatorStateOnDisable = false;
+    }
+
     public void Draw(EndWindowType type, int playerCount, int dealerCount)
     {
-        gameObject.SetActive(true);
+        Show();
         resultInfoTM.text = GetResultText(type);
         playerCountTM.text = "Player: " + playerCount;
         dealerCountTM.text = "Dealer: " + dealerCount;
+    }
+
+    private void Show()
+    {
+        mainContainer.DOScale(Vector3.one, .3f);
+    }
+
+    public void Hide()
+    {
+        mainContainer.DOScale(Vector3.zero, .3f);
     }
 
     private string GetResultText(EndWindowType type)
