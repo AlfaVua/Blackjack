@@ -1127,6 +1127,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6653528767952510262, guid: bbd1c2f5aa095824685e3e3bef371779, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653528767952510262, guid: bbd1c2f5aa095824685e3e3bef371779, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653528767952510262, guid: bbd1c2f5aa095824685e3e3bef371779, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653528767952510262, guid: bbd1c2f5aa095824685e3e3bef371779, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8383257754747551777, guid: bbd1c2f5aa095824685e3e3bef371779, type: 3}
       propertyPath: m_Pivot.x
       value: 0
