@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Components;
 using TMPro;
 using UnityEngine;
@@ -15,6 +16,7 @@ namespace Cards.Hand
 
         public int CurrentValue { get; private set; }
         public Vector3 NextCardPosition => container.GetNextItemTargetPosition(true);
+        public List<int> CardIds => _cards.Select(card => card.Id).ToList();
 
         private void Awake()
         {

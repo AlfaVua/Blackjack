@@ -5,15 +5,17 @@ namespace Cards
 {
     public class CardData
     {
-        public int Value { get; private set; }
-        public Sprite View { get; private set; }
-        public bool IsWhite { get; private set; }
+        public readonly int Value;
+        public readonly Sprite View;
+        public readonly bool IsWhite;
+        public readonly int Id;
 
-        public CardData(int value, Sprite view, bool isWhite)
+        public CardData(int value, Sprite view, bool isWhite, int id)
         {
             Value = value;
             View = view;
             IsWhite = isWhite;
+            Id = id;
         }
 
         public bool IsAce => Value == 11;

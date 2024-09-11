@@ -31,7 +31,7 @@ namespace Dealer
                 _onComplete();
                 return;
             }
-            _handler.AnimateCard(deck.GetNext(), hand, () => TryTakeNextCard(deck, hand));
+            _handler.AnimateCard(deck.TakeNextCard(), hand, () => TryTakeNextCard(deck, hand));
         }
 
         private bool ShouldGetNext(DealerHand hand)

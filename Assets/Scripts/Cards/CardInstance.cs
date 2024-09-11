@@ -20,6 +20,8 @@ namespace Cards
             set => sprite.sprite = value ? GameController.GetCardBack(_data.IsWhite) : _data.View;
         }
 
+        public int Id => _data.Id;
+
         public void Init(CardData cardData)
         {
             _data = cardData;

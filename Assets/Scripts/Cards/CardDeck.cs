@@ -13,20 +13,33 @@ namespace Cards
         [SerializeField] private CardInstance prefab;
         [SerializeField] private TextMeshProUGUI deckSize;
         private List<CardData> _cards;
-        private int _currentCardIndex = 0;
         public void Init(List<CardData> cards)
         {
             _cards = cards;
-            _currentCardIndex = 0;
             deckSize.text = _cards.Count.ToString();
         }
 
-        public CardInstance GetNext()
+        public CardInstance TakeNextCard()
         {
-            if (_currentCardIndex == _cards.Count) return null;
-            var card = _cards[_currentCardIndex++];
-            deckSize.text = (_cards.Count - _currentCardIndex).ToString();
+            if (_cards.Count == 0) return null;
+            var card = _cards[0];
+            _cards.RemoveAt(0);
+            OnCardsAmountChanged();
             return card.CreateInstance(prefab);
+        }
+
+        public CardInstance TakeCardById(int cardId)
+        {
+            var cardIndex = _cards.FindIndex(card => card.Id == cardId);
+            var card = _cards[cardIndex];
+            _cards.RemoveAt(cardIndex);
+            OnCardsAmountChanged();
+            return card.CreateInstance(prefab);
+        }
+
+        private void OnCardsAmountChanged()
+        {
+            deckSize.text = _cards.Count.ToString();
         }
 
         public void AnimateCard(CardInstance card, CardHandBase hand, Action onComplete)

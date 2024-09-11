@@ -53,7 +53,7 @@ namespace Cards
         private void GenerateCard(RawCardData data, string type, bool isWhite)
         {
             var cardName = type + "_" + data.name + (isWhite ? "_white" : "_black");
-            cards.Add(new CardData(data.value, GetCardSprite(cardName, isWhite ? preset.whites : preset.blacks), isWhite));
+            cards.Add(new CardData(data.value, GetCardSprite(cardName, isWhite ? preset.whites : preset.blacks), isWhite, cards.Count));
             OnCardGenerated();
         }
 

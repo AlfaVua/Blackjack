@@ -1,7 +1,9 @@
+using System.Collections.Generic;
 using Cards;
 using Cards.Hand;
 using Dealer;
 using DG.Tweening;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,7 +21,10 @@ public class GameController : MonoBehaviour
     [SerializeField] private DealerHand dealerHand;
 
     [SerializeField] private EndWindowUI endWindow;
+    [SerializeField] private LastGameData gameData;
     public static GameController Instance { get; private set; }
+
+    private bool _gameIsComplete;
     
     private void Awake()
     {
@@ -35,7 +40,10 @@ public class GameController : MonoBehaviour
     public void StartNewGame()
     {
         endWindow.Hide();
-        dealer.Init(generator.CardList, playerHand, dealerHand);
+        dealer.Init(new List<CardData>(generator.CardList), playerHand, dealerHand);
+        _gameIsComplete = false;
+        if (gameData.HaveData) gameData.Load(dealer);
+        else dealer.InitStartingCards();
     }
 
     public void PlayerValueChanged(int newValue)
@@ -69,15 +77,27 @@ public class GameController : MonoBehaviour
     public void PlayerLost()
     {
         endWindow.Draw(EndWindowType.PLAYER_LOST, playerHand.CurrentValue, dealerHand.CurrentValue);
+        gameData.Clear();
+        _gameIsComplete = true;
     }
 
     public void PlayerWon()
     {
         endWindow.Draw(EndWindowType.PLAYER_WON, playerHand.CurrentValue, dealerHand.CurrentValue);
+        gameData.Clear();
+        _gameIsComplete = true;
     }
 
     public void GameTie()
     {
         endWindow.Draw(EndWindowType.TIE, playerHand.CurrentValue, dealerHand.CurrentValue);
+        gameData.Clear();
+        _gameIsComplete = true;
+    }
+
+    private void OnApplicationQuit()
+    {
+        if (_gameIsComplete) return;
+        gameData.Save(playerHand.CardIds, dealerHand.CardIds);
     }
 }

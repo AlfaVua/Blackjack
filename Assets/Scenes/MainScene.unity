@@ -486,6 +486,7 @@ MonoBehaviour:
   playerHand: {fileID: 135489393}
   dealerHand: {fileID: 1754265582}
   endWindow: {fileID: 1808643541}
+  gameData: {fileID: 11400000, guid: 7033532c715d06d43a7c3bc28af6c0d1, type: 2}
 --- !u!224 &446225741 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 511301465201110229, guid: 0da905eb998207b43920758ce188b498, type: 3}

@@ -23,10 +23,9 @@ namespace Dealer
             _playerCards.Init();
             _dealerCards = dealerHand;
             _dealerCards.Init();
-            InitStartingCards();
         }
 
-        private void InitStartingCards()
+        public void InitStartingCards()
         {
             AddPlayerCard(false);
             AddPlayerCard(false);
@@ -95,12 +94,12 @@ namespace Dealer
         private void GiveNextCard(CardHandBase hand, bool animate)
         {
             if (animate) AnimateNextCard(_playerCards);
-            else hand.AddCard(deck.GetNext());
+            else hand.AddCard(deck.TakeNextCard());
         }
 
         private void AnimateNextCard(CardHandBase hand)
         {
-            var card = deck.GetNext();
+            var card = deck.TakeNextCard();
             AnimateCard(card, hand);
         }
 
@@ -111,6 +110,16 @@ namespace Dealer
                 hand.AddCard(card);
                 callback?.Invoke();
             });
+        }
+
+        public void LoadPlayerCard(int cardId)
+        {
+            _playerCards.AddCard(deck.TakeCardById(cardId));
+        }
+
+        public void LoadDealerCard(int cardId)
+        {
+            _dealerCards.AddCard(deck.TakeCardById(cardId));
         }
     }
 }
